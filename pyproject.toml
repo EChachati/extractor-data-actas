@@ -10,6 +10,10 @@ documentation = "https://github.com/EChachati/python-base-project/blob/master/RE
 
 [tool.poetry.dependencies]
 python = "^3.10"
+pytesseract = "^0.3.10"
+requests = "^2.32.3"
+opencv-python = "^4.10.0.84"
+sqlalchemy = "^2.0.31"
 
 [tool.poetry.group.dev.dependencies]
 ipdb = "^0.13.13"
