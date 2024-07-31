@@ -10,12 +10,12 @@ from utils import extract_qr_from_image, extract_text_from_image, image_from_url
 
 if __name__ == "__main__":
     CURRENT = 0
-    MAX = 25000
+    MAX = 20000
 
     fails = []
     create_actas_table()
 
-    for id_, url in get_all_image_urls(1330):
+    for id_, url in get_all_image_urls(2870):
         CURRENT += 1
         if CURRENT == MAX:
             break
