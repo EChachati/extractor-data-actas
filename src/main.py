@@ -55,7 +55,9 @@ if __name__ == "__main__":
         except Exception:
             with open("fails.txt", "a") as f:
                 f.write("\n".join(fails))
+                f.write("\n")
                 fails = []
 
     with open("fails.txt", "a") as f:
         f.write("\n".join(fails))
+        f.write("\n")
